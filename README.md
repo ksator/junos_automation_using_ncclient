@@ -39,7 +39,7 @@ jupyter/minimal-notebook   latest              5741bc0030bd        2 weeks ago  
 ```
 Instanciate a container 
 ```
-$ docker run --rm --name ncclient -d -p 9081:8888 -v $PWD/ncclient.ipynb:/home/jovyan/ncclient.ipynb jupyter/minimal-notebook
+$ docker run --rm --name ncclient -d -p 9081:8888 -v $PWD:/home/jovyan/ jupyter/minimal-notebook
 ```
 ```
 $ docker ps | grep jupyter/minimal-notebook
@@ -71,5 +71,5 @@ $
 ```
 The changes on the file [ncclient.ipynb](ncclient.ipynb) are automatically saved locally.  
 ```
-$ more ncclient.ipynb
+$ ls -l
 ```
