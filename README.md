@@ -73,7 +73,7 @@ $ docker ps | grep ncclient
 $ docker ps -a | grep ncclient
 $ 
 ```
-The changes on the file [ncclient.ipynb](ncclient.ipynb) are automatically saved.  
+The changes on the file [ncclient.ipynb](ncclient.ipynb) are automatically saved locally.  
 ```
 $ more ncclient.ipynb
 ```
