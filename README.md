@@ -1,4 +1,4 @@
-# ncclient  
+# About ncclient  
 
 ncclient is a python library.  
 It is a NetConf client implementation in Python.    
@@ -6,22 +6,22 @@ Code https://github.com/ncclient/ncclient
 Doc https://ncclient.readthedocs.io/en/latest/  
 PyPI (Python Package Index) https://pypi.python.org/pypi/ncclient  
 
-# NETCONF
+# About NETCONF
 
 NETCONF is a protocol defined in the [RFC 6241](https://tools.ietf.org/html/rfc6241)   
 Junos has a NETCONF server  
 ncclient is a NETCONF client  
 
-# Jupyter notebook
+# About Jupyter notebook
 
 Jupyter Notebook is an open-source web application that allows you to create and share documents that contains live code.
 
-# This repo 
+# About this repo 
 
 The notebook [ncclient.ipynb](ncclient.ipynb) file has a Junos automation demo using ncclient  
 This repo also shows a NETCONF session inside an SSH connection    
 
-# Instructions
+# Instructions 
 
 Install Docker 
 
