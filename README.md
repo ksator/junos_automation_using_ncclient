@@ -1,6 +1,7 @@
 # NETCONF
 
 NETCONF is defined in the [RFC 6241](https://tools.ietf.org/html/rfc6241)   
+Junos has a NetConf server  
 
 ## Open a NetConf session inside an SSH connection
 
@@ -95,8 +96,8 @@ The interface ge-0/0/0 is already configured
 
 ## Configure routing policies 
 
+We can use the operation get-config with a filter to retrieve the policy-options subtree from the active configuration.  
 The routing policies configuration is not yet configured.  
-We can use the operation get-config with a filter to retrieve the policy-options subtree from the active configuration:  
 ```
 ]]>]]>
 <rpc>
