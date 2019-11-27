@@ -12,6 +12,8 @@ NETCONF is a protocol defined in the [RFC 6241](https://tools.ietf.org/html/rfc6
 Junos has a NETCONF server  
 ncclient is a NETCONF client  
 
+The file [NETCONF_session.md](NETCONF_session.md) shows how to open a NETCONF session in an SSH connection.  
+
 # About Jupyter notebook
 
 Jupyter Notebook is an open-source web application that allows you to create and share documents that contains live code.
@@ -19,7 +21,8 @@ Jupyter Notebook is an open-source web application that allows you to create and
 # About this repo 
 
 The notebook [ncclient.ipynb](ncclient.ipynb) file has a Junos automation demo using ncclient  
-This repo also shows a NETCONF session inside an SSH connection    
+
+This repo also shows a NETCONF session inside an SSH connection (file [NETCONF_session.md](NETCONF_session.md))
 
 # Instructions 
 
@@ -60,3 +63,4 @@ The URL is `http://IP:PORT/?token=xxxxxxxx`
 - The default port is 8888 but the container instanciated with the above `docker run` command use the port 9081  
 - The token is provided with the command `docker exec ncclient jupyter notebook list`
 
+Then you can use the file [ncclient.ipynb](ncclient.ipynb)]. It has ncclient content to automate Junos. You also need a Junos device.    
