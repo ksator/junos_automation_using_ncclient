@@ -1,7 +1,14 @@
+# About this repo 
+
+ncclient is a python library. It is a NETCONF client implementation in Python. Junos devices have a NETCONF server. This repo has ncclient content to automate Junos.  
+
+This repo also shows a NETCONF session inside an SSH connection    
+
 # NETCONF
 
-NETCONF is defined in the [RFC 6241](https://tools.ietf.org/html/rfc6241)   
-Junos has a NetConf server  
+NETCONF is a protocol defined in the [RFC 6241](https://tools.ietf.org/html/rfc6241)   
+Junos has a NETCONF server  
+ncclient is a NETCONF client  
 
 ## Open a NetConf session inside an SSH connection
 
@@ -276,6 +283,7 @@ Let's use the operation get-config with a filter to retrieve the policy-options 
 ```
 
 ## Close the NetConf session  
+
 Let's gracefully close the NetConf session:
 ```
 <rpc><close-session></close-session></rpc>]]>]]>
@@ -283,10 +291,25 @@ Let's gracefully close the NetConf session:
 
 # ncclient  
 
-NetConf client implementation in Python  
+## About ncclient  
+
+ncclient is a python library.  
+It is a NetConf client implementation in Python.    
 Code https://github.com/ncclient/ncclient  
+Doc https://ncclient.readthedocs.io/en/latest/  
 PyPI (Python Package Index) https://pypi.python.org/pypi/ncclient  
 
+## ncclient installation
 
+```
+$ pip install ncclient
+
+```
+```
+$ pip list | grep ncclient
+ncclient (0.6.3)
+```
+
+##  
 
 
