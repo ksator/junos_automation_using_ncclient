@@ -1,6 +1,7 @@
 # About ncclient  
 
 ncclient is a python library. It is a NetConf client implementation in Python.    
+
 Code https://github.com/ncclient/ncclient  
 Doc https://ncclient.readthedocs.io/en/latest/  
 PyPI (Python Package Index) https://pypi.python.org/pypi/ncclient  
@@ -20,7 +21,7 @@ Jupyter Notebook is an open-source web application that allows you to create and
 
 # About this repo 
 
-This repo has several Jupyter notebook files (ipynb file extension). These files have Junos automation content using ncclient  
+This repo has several Jupyter notebook files (`.ipynb` files). These files have Junos automation content using ncclient  
 
 This repo also shows how to use NETCONF inside an SSH connection (file [NETCONF_session.md](NETCONF_session.md))
 
@@ -58,7 +59,7 @@ The URL is `http://IP:PORT/?token=xxxxxxxx`
 - The default port is 8888 but the container instanciated with the above `docker run` command use the port 9081  
 - The token is provided with the command `$ docker exec ncclient jupyter notebook list`
 
-Then you can use Jupyter files. They have ncclient content to automate Junos. You also need a Junos device.    
+Then you can use Jupyter `.ipynb` files. They have ncclient content to automate Junos. You also need a Junos device.    
 
 # Stop Jupyter 
 
@@ -69,7 +70,7 @@ $ docker ps | grep ncclient
 $ docker ps -a | grep ncclient
 $ 
 ```
-The changes on the .ipynb files are automatically saved locally.  
+The changes on the `.ipynb` files are automatically saved locally.  
 ```
 $ ls -l
 ```
