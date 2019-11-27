@@ -63,3 +63,17 @@ The URL is `http://IP:PORT/?token=xxxxxxxx`
 - The token is provided with the command `docker exec ncclient jupyter notebook list`
 
 Then you can use the file [ncclient.ipynb](ncclient.ipynb). It has ncclient content to automate Junos. You also need a Junos device.    
+
+# Stop Jupyter 
+
+```
+$ docker stop ncclient
+ncclient
+$ docker ps | grep ncclient
+$ docker ps -a | grep ncclient
+$ 
+```
+The changes on the file [ncclient.ipynb](ncclient.ipynb) are automatically saved.  
+```
+$ more ncclient.ipynb
+```
