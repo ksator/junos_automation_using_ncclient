@@ -12,7 +12,7 @@ NETCONF is a protocol defined in the [RFC 6241](https://tools.ietf.org/html/rfc6
 Junos has a NETCONF server  
 ncclient is a NETCONF client  
 
-The file [NETCONF_session.md](NETCONF_session.md) shows how to open a NETCONF session in an SSH connection.  
+The file [NETCONF_session.md](NETCONF_session.md) shows how to use NETCONF in an SSH connection.  
 
 # About Jupyter notebook
 
@@ -22,7 +22,7 @@ Jupyter Notebook is an open-source web application that allows you to create and
 
 The notebook [ncclient.ipynb](ncclient.ipynb) file has a Junos automation demo using ncclient  
 
-This repo also shows a NETCONF session inside an SSH connection (file [NETCONF_session.md](NETCONF_session.md))
+This repo also shows how to use NETCONF inside an SSH connection (file [NETCONF_session.md](NETCONF_session.md))
 
 # Instructions 
 
