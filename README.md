@@ -1,4 +1,3 @@
-
 # NETCONF
 
 NETCONF is defined in the [RFC 6241](https://tools.ietf.org/html/rfc6241)   
@@ -275,8 +274,18 @@ Let's use the operation get-config with a filter to retrieve the policy-options 
 
 ```
 
-##### Close the NetConf session  
+## Close the NetConf session  
 Let's gracefully close the NetConf session:
 ```
 <rpc><close-session></close-session></rpc>]]>]]>
 ```
+
+# ncclient  
+
+NetConf client implementation in Python  
+Code https://github.com/ncclient/ncclient  
+PyPI (Python Package Index) https://pypi.python.org/pypi/ncclient  
+
+
+
+
