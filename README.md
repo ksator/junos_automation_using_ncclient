@@ -27,7 +27,13 @@ This repo also shows how to use NETCONF inside an SSH connection (file [NETCONF_
 
 # Instructions 
 
+## Requirements 
+
 Install Docker 
+
+You also need a Junos device.    
+
+## Start Jupyter
 
 Pull the Docker image for Jupyter
 ```
@@ -59,9 +65,9 @@ The URL is `http://IP:PORT/?token=xxxxxxxx`
 - The default port is 8888 but the container instanciated with the above `docker run` command use the port 9081  
 - The token is provided with the command `$ docker exec ncclient jupyter notebook list`
 
-Then you can use Jupyter `.ipynb` files. They have ncclient content to automate Junos. You also need a Junos device.    
+Then you can use Jupyter `.ipynb` files. They have ncclient content to automate Junos. 
 
-# Stop Jupyter 
+## Stop Jupyter 
 
 ```
 $ docker stop ncclient
