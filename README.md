@@ -65,7 +65,7 @@ The URL is `http://IP:PORT/?token=xxxxxxxx`
 - The default port is 8888 but the container instanciated with the above `docker run` command use the port 9081  
 - The token is provided with the command `$ docker exec ncclient jupyter notebook list`
 
-Suggested order: 
+Then you can use Jupyter `.ipynb` files. They have ncclient content to automate Junos.  Suggested order: 
 - capabilities.ipynb     
 - retrieve_configuration.ipynb
 - update_configuration.ipynb
@@ -73,9 +73,6 @@ Suggested order:
 - create_xml_content.ipynb        
 - commit_comment.ipynb
 - execute_commands_or_junos_rpc.ipynb  
-
-
-Then you can use Jupyter `.ipynb` files. They have ncclient content to automate Junos. 
 
 ## Stop Jupyter 
 
