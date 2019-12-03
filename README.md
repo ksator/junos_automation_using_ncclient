@@ -1,6 +1,6 @@
 # About ncclient  
 
-ncclient is a python library. It is a NetConf client implementation in Python.    
+ncclient is a python library. It is a NETCONF client implementation in Python.    
 
 Code https://github.com/ncclient/ncclient  
 Doc https://ncclient.readthedocs.io/en/latest/  
@@ -10,8 +10,8 @@ PyPI (Python Package Index) https://pypi.python.org/pypi/ncclient
 
 NETCONF is a protocol defined in the [RFC 6241](https://tools.ietf.org/html/rfc6241)   
 
-Junos has a NETCONF server  
 ncclient is a NETCONF client  
+Junos has a NETCONF server  
 
 The file [NETCONF_session.md](NETCONF_session.md) shows how to use NETCONF in an SSH connection.  
 
@@ -66,13 +66,13 @@ The URL is `http://IP:PORT/?token=xxxxxxxx`
 - The token is provided with the command `$ docker exec ncclient jupyter notebook list`
 
 Then you can use Jupyter `.ipynb` files. They have ncclient content to automate Junos.  Suggested order: 
-- capabilities.ipynb     
-- retrieve_configuration.ipynb
-- update_configuration.ipynb
-- discard_changes.ipynb  
-- create_xml_content.ipynb        
-- commit_comment.ipynb
-- execute_commands_or_junos_rpc.ipynb  
+- [capabilities.ipynb](capabilities.ipynb)     
+- [retrieve_configuration.ipynb](retrieve_configuration.ipynb)
+- [update_configuration.ipynb](update_configuration.ipynb)
+- [discard_changes.ipynb](discard_changes.ipynb)
+- [create_xml_content.ipynb](create_xml_content.ipynb)
+- [commit_comment.ipynb](commit_comment.ipynb)
+- [execute_commands_or_junos_rpc.ipynb](execute_commands_or_junos_rpc.ipynb)
 
 ## Stop Jupyter 
 
